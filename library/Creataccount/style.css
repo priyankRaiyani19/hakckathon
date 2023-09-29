@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    --colorPrimary: #3D56D5FF;
+    /*--colorSecondary: */
+    /*--colorText: */
+    /*--colorHover: */
+    /*--colorTemp*/
+}
 #main{
     background-color: gray;
     height: 100vh;
@@ -42,7 +49,9 @@
     width: 140px;
     border-radius: 10px;
 }
-
+#submit-btn:hover{
+    background-color: var(--colorPrimary);
+}
 .form input{
     color: black;
     /*font-weight: bolder;*/
@@ -77,8 +86,10 @@
 #forgot a{
     text-decoration: none;
     color: #0010ff;
-
 }
+
+
+
 .icon-wrapper{
     display: flex;
     justify-content: space-evenly;
@@ -97,4 +108,7 @@
     background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
+}
+.fa-brands:hover {
+    font-size: 35px;
 }
