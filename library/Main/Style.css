@@ -299,4 +299,9 @@ a{
 
   text-decoration: none;
 }
+.books img:hover{
+  transform: scale(1.05);
+  transition: 0.5S;
+  /*transform: scaleY(1.1);*/
+}
 
