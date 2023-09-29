@@ -12,12 +12,12 @@
   --background-color1: #fafaff;
   --background-color2: #ffffff;
   --background-color3: #ededed;
-  --background-color4: #cad7fda4;
-  --primary-color: #4b49ac;
-  --secondary-color: #0c007d;
-  --Border-color: #3f0097;
-  --one-use-color: #3f0097;
-  --two-use-color: #5500cb;
+  --background-color4: rgba(210, 115, 54, 0.64);
+  --primary-color: #cc7730;
+  --secondary-color: #af271b;
+  --Border-color: #ff6000;
+  --one-use-color: #ee9455;
+  --two-use-color: #c07545;
 }
 body {
   background-color: var(--background-color4);
@@ -32,7 +32,7 @@ header {
   background-color: var(--background-color1);
   position: fixed;
   z-index: 100;
-  box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
+  box-shadow: 1px 1px 15px rgba(224, 60, 0, 0.82);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,7 +79,7 @@ header {
   height: 7px;
   width: 7px;
   position: absolute;
-  background-color: #fa7bb4;
+  background-color: #c56808;
   border-radius: 50%;
   left: 19px;
   top: 8px;
@@ -87,7 +87,7 @@ header {
 .dp {
   height: 40px;
   width: 40px;
-  background-color: #626262;
+  background-color: #bd613a;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -126,7 +126,7 @@ header {
   position: absolute;
   top: 0px;
   left: 00;
-  box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
+  box-shadow: 1px 1px 10px rgba(194, 99, 41, 0.82);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -213,14 +213,14 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 20px 20px 10px 20px;
-  border-bottom: 2px solid rgba(0, 20, 151, 0.59);
+  border-bottom: 2px solid rgba(178, 72, 8, 0.59);
 }
  
 .view{
   height: 35px;
   width: 90px;
   border-radius: 8px;
-  background-color: #5500cb;
+  background-color: #cb6c00;
   color: white;
   font-size: 15px;
   border: none;
