@@ -69,21 +69,23 @@ header {
  .searchbar input {
   width: 750px;
   height: 42px;
-  border-radius: 50px 0 0 50px;
+  border-radius: 50px ;
   padding: 0 20px;
   font-size: 15px;
   outline: none;
-  border: none;
+   /*background-color: rgba(243, 157, 84, 0.9);*/
+  /*border: 11px black;*/
+
 } 
-.circle {
-  height: 7px;
-  width: 7px;
-  position: absolute;
-  background-color: #c56808;
-  border-radius: 50%;
-  left: 19px;
-  top: 8px;
-}
+/*.circle {*/
+/*  height: 7px;*/
+/*  width: 7px;*/
+/*  position: absolute;*/
+/*  background-color: #c56808;*/
+/*  border-radius: 50%;*/
+/*  left: 19px;*/
+/*  top: 8px;*/
+/*}*/
 .dp {
   height: 40px;
   width: 40px;
@@ -110,7 +112,7 @@ header {
   width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  padding: 40px 30px 30px 30px;
+  padding: 10px 30px 30px 30px;
 }
 .box-container {
   display: flex;
@@ -125,7 +127,7 @@ header {
   background-color: var(--background-color2);
   position: absolute;
   top: 0px;
-  left: 00;
+  /*left: 00;*/
   box-shadow: 1px 1px 10px rgba(194, 99, 41, 0.82);
   display: flex;
   flex-direction: column;
@@ -173,14 +175,45 @@ header {
 }
  
 .option1 {
-  border-left: 5px solid #010058af;
-  background-color: var(--Border-color);
-  color: white;
+  /*border-left: 5px solid #010058af;*/
+  color: #0c1009;
   cursor: pointer;
 }
 .option1:hover {
   border-left: 5px solid #010058af;
   background-color: var(--Border-color);
+}.option2:hover {
+   border-left: 5px solid #010058af;
+   background-color: var(--Border-color);
+ }
+.option3:hover {
+  border-left: 5px solid #010058af;
+  background-color: var(--Border-color);
+}
+.option4:hover {
+  border-left: 5px solid #010058af;
+  background-color: var(--Border-color);
+}
+.option5:hover {
+  border-left: 5px solid #010058af;
+  background-color: var(--Border-color);
+}
+.option6:hover {
+  border-left: 5px solid #010058af;
+  background-color: var(--Border-color);
+}
+.option7:hover {
+  border-left: 5px solid #010058af;
+  background-color: var(--Border-color);
+}
+.option8:hover {
+  border-left: 5px solid #010058af;
+  background-color: var(--Border-color);
+}
+.option9:hover {
+  border-left: 5px solid #010058af;
+  background-color: var(--Border-color);
+
 }
 .box {
   height: 130px;
@@ -235,6 +268,8 @@ header {
   width:50px;
   height: 50px;
   z-index: 20;
+  margin-top: 25px;
+  margin-left: 8px;
 }
 
 .books{
@@ -256,3 +291,12 @@ header {
   height: 20px;
   width: 20px;
 }
+.option9 {
+  text-decoration: none;
+  color: black;
+}
+a{
+
+  text-decoration: none;
+}
+
