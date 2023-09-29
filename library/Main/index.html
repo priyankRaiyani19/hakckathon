@@ -6,6 +6,7 @@
      <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://kit.fontawesome.com/10e2ed5086.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Style.css">
+    <script src="Script.js"></script>
 
 </head>
 <body>
@@ -39,10 +40,12 @@
                             <i class="fa-brands fa-cc-discover"></i>
                             <h3> Discover</h3>
                     </div>
+                        <a href="#category" style="text-decoration: none">
                     <div class="option2 nav-option">
-                        <i class="fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-bars" ></i>
                          <h3>Category</h3>
                     </div>
+                        </a>
  
                     <div class="nav-option option3">
                         <i class="fa-solid fa-book"></i>
@@ -53,11 +56,12 @@
                         <i class="fa-solid fa-download"></i> 
                         <h3>Download</h3>
                     </div>
- 
+                        <a href="#Ab">
                     <div class="nav-option option5">
                         <i class="fa-solid fa-headphones"></i>
                         <h3>Audio Books</h3>
                     </div>
+                        </a>
  
                     <div class="nav-option option6">
                         <i class="fa-solid fa-heart"></i>
@@ -74,7 +78,7 @@
                         <h3>Support</h3>
                     </div>
 
-                                                <a href="../Login/index.html">
+                        <a href="../Login/index.html">
                         <div class="nav-option option9">
                             <i class="fa-solid fa-right-from-bracket logout"></i>
                         <h3>Logout</h3>
@@ -92,11 +96,13 @@
                 <button class="view">See All ></button>
             </div>
             <div class="books">
+                <a href="../pdf/unencrypted-geeta.pdf" target="_blank">
                 <div>
                     <img src="../images/book1.jpg" class="book" alt="" width="200px" height="300px">
                      <h3>Shreemad <br>
                          BhagvatGeeta</h3>
-                </div>
+                </div></a>
+
                 <div>
                     <img src="../images/book2.jpg" class="book" alt=""  width="200px" height="300px">
                     <h3>Ramayan</h3>
@@ -111,8 +117,72 @@
                 </div>
             </div>
 
+
+        </div>
+        <div class="report-container books2">
+            <div class="report-header">
+                <h1 id="category" class="Recommended">Category</h1>
+                <button class="view">See All ></button>
+            </div>
+            <div class="books">
+
+                <div>
+                    <img src="../images/book1.jpg" class="book" alt="" width="200px" height="300px">
+                     <h3>Epic</h3>
+                </div>
+                <div>
+                    <img src="../images/book4.jpg" class="book" alt=""  width="200px" height="300px">
+                    <h3>Vedas</h3>
+                </div>
+                <div>
+                    <img src="../images/book5.jpg" class="book" alt=""  width="200px" height="300px">
+                    <h3>Ancient <br>
+                    Literature</h3>
+                </div>
+                <div>
+                    <img src="../images/book6.jpg" class="book" alt=""  width="200px" height="300px">
+                    <h3>Stotram</h3>
+                </div>
+            </div>
+
+
+        </div>
+            <div class="report-container" id="Ab">
+                <div class="report-header">
+                    <h1 class="Recommended">Audio Books</h1>
+                    <button class="view">See All ></button>
+                </div>
+                <div class="books">
+
+                        <div>
+                            <img src="../images/book1.jpg" class="book" alt="" width="200px" height="300px">
+                            <h3>Shreemad <br>
+                                BhagvatGeeta</h3>
+                        </div>
+
+                    <div>
+                        <img src="../images/book2.jpg" class="book" alt=""  width="200px" height="300px">
+                        <h3>Ramayan</h3>
+
+                    </div>
+                    <div>
+                        <img src="../images/book3.jpg" class="book" alt=""  width="200px" height="300px">
+                        <h3>Vachanarmut</h3><div class="center-btn">
+                        <button id="playButton" class="Play-btn">Play Audio</button>
+                        <audio id="audioElement" src="vachnamrut.mp3"></audio>
+                    </div>
+                    </div>
+                    <div>
+                        <img src="../images/book4.jpg" class="book" alt=""  width="200px" height="300px">
+                        <h3>Rigveda</h3>
+                    </div>
+                </div>
+
+
+            </div>
+
         </div>
         </div>
-        </div>
+
 </body>
 </html>

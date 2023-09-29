@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 :root{
   --background-color1: #fafaff;
@@ -112,7 +113,7 @@ header {
   width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  padding: 10px 30px 30px 30px;
+  padding: 20px 10px 10px 10px;
 }
 .box-container {
   display: flex;
@@ -262,6 +263,7 @@ header {
 
 .book{
   position: relative;
+  border-radius: 10px;
 }
 
 .searchbtn{
@@ -277,6 +279,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-top: 3rem;
+
 }
 
 .books div h3{
@@ -296,12 +299,31 @@ header {
   color: black;
 }
 a{
-
+  color: #0c1009;
   text-decoration: none;
 }
 .books img:hover{
   transform: scale(1.05);
   transition: 0.5S;
-  /*transform: scaleY(1.1);*/
+
 }
+.books2{
+  margin-top: 150px;
+
+}
+#Ab{
+  margin-top: 150px;
+}
+.Play-btn{
+
+  text-align: center;
+  border-radius: 3rem;
+}
+
+.center-btn{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
 
