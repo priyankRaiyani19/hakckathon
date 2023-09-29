@@ -68,7 +68,11 @@
 
 }
 #forgot{
-     margin-left: 300px;
+    margin-right: 29px;
+     margin-left: 29px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 #forgot a{
     text-decoration: none;
@@ -81,9 +85,9 @@
     font-size: 30px;
 }
 
-.fa-github{
-    color: black;
-}
+/*.fa-github{*/
+/*    color: black;*/
+/*}*/
 .fa-facebook{
     color: blue;
 
@@ -96,6 +100,6 @@
     color: transparent;
     -webkit-text-fill-color: transparent;
 }
-.fa-twitter{
-    color: #00acee;
-}
+/*.fa-twitter{*/
+/*    color: #00acee;*/
+/*}*/
